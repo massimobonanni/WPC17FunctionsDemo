@@ -1,2 +1,2 @@
-# WPC17Demo
-Demo per l'evento WPC 2017
+# WPC17 Functions Demo
+This is the repository for the Demo source code for the session about Azure Function on WPC2017.
