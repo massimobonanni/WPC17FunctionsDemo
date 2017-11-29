@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCommerceDemo", "MyCommerceDemo\MyCommerceDemo.csproj", "{97B732A2-B012-4A9A-863F-1D0640A8EEF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCommerceDemo", "MyCommerceDemo\MyCommerceDemo.csproj", "{97B732A2-B012-4A9A-863F-1D0640A8EEF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ARM Templates", "ARM Templates", "{284ACC12-FF65-46D1-87B8-F5E6285CDDFF}"
+	ProjectSection(SolutionItems) = preProject
+		ARM Templates\deploy.ps1 = ARM Templates\deploy.ps1
+		ARM Templates\deploy.sh = ARM Templates\deploy.sh
+		ARM Templates\deployer.rb = ARM Templates\deployer.rb
+		ARM Templates\DeploymentHelper.cs = ARM Templates\DeploymentHelper.cs
+		ARM Templates\parameters.json = ARM Templates\parameters.json
+		ARM Templates\template.json = ARM Templates\template.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

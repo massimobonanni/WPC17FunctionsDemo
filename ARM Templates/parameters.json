@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_WPC2017FunctionApp_name": {
+            "value": null
+        },
+        "serverfarms_WestEuropePlan_name": {
+            "value": null
+        },
+        "components_WPC2017FunctionApp_name": {
+            "value": null
+        },
+        "config_web_name": {
+            "value": null
+        },
+        "storageAccounts_wpc2017storageaccount_name": {
+            "value": null
+        },
+        "alertrules_Failure_Anomalies___WPC2017FunctionApp_name": {
+            "value": null
+        },
+        "hostNameBindings_wpc2017functionapp.azurewebsites.net_name": {
+            "value": null
+        }
+    }
+}
